@@ -9,6 +9,7 @@ func TestReverse(t *testing.T) {
 		{"Hello, world", "dlrow ,olleH"},
 		{"Hello, 世界", "界世 ,olleH"},
 		{"", ""},
+		{"\n\nba\n\n", "\n\nab\n\n"},
 	}
 
 	for _, c := range cases {
